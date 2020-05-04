@@ -26,7 +26,7 @@ while video.isOpened():
         #mostrar
         cv2.imshow('capture', frame) 
         f = f+1
-        
+       
         print(f) #numero de frames
 
     key = cv2.waitKey(1) & 0xFF
